@@ -7,7 +7,7 @@ Created on Sat Jun 19 09:22:14 2021
 try:
     import re, requests
 except:
-    print("Projeye dahil edilmiş kütühpanelerin yüklü olduğundan emin olun.")
+    print("Projeye dahil edilmiş kütüphanelerin yüklü olduğundan emin olun.")
 
 
 def update_list():
