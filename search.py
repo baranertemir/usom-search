@@ -13,10 +13,9 @@ def update_list():
         upd.write(update.text)
         upd.close()
 
-#update_list()
 
 if __name__ == "__main__":
-    #update_list()
+    update_list()
     with open("data.txt", "r") as file:
          data = file.read()
          print("[Q] Quit")
