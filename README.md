@@ -1,4 +1,4 @@
 # USOM Search Tool
 
 
-USOM'a yakalanmış web siteleri üzerinde arama yapmanızı sağlar. Regex kavramını kavrayabilmek için yapılmış küçük bir çalışma.
+USOM'a yakalanmış zararlı web sitelerini arayabilmenizi sağlayan, regex kavramını kavrayabilmek için yapılmış minik bir çalışmadır kendisi.
