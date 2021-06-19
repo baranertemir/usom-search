@@ -13,22 +13,23 @@ def update_list():
         upd.write(update.text)
         upd.close()
 
-update_list()
+#update_list()
 
-
-with open("data.txt", "r") as file:
-     data = file.read()
-     print("[Q] Quit")
-     while True:
-         word = str(input("Gir >"))
-         word = word.replace("https://", "")
-         word = word.replace("http://", "")
-         word = word.strip()
-         
-         find = re.findall(word, data)
-         if word == "Q" or word == "q":
-             break
-         if find:
-             print("Bu domain USOM'a yakalanmistir:",find[0])
-         else:
-             print("Bulunamadi.")
+if __name__ == "__main__":
+    #update_list()
+    with open("data.txt", "r") as file:
+         data = file.read()
+         print("[Q] Quit")
+         while True:
+             word = str(input("Gir >"))
+             word = word.replace("https://", "")
+             word = word.replace("http://", "")
+             word = word.strip()
+             
+             find = re.findall(word, data)
+             if word == "Q" or word == "q":
+                 break
+             if find:
+                 print("Bu domain USOM'a yakalanmistir:",find[0])
+             else:
+                 print("Bulunamadi.")
