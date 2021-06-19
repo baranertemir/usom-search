@@ -4,7 +4,11 @@ Created on Sat Jun 19 09:22:14 2021
 
 @author: A.Baran Ertemir
 """
-import re, requests
+try:
+    import re, requests
+except:
+    print("Projeye dahil edilmiş kütühpanelerin yüklü olduğundan emin olun.")
+
 
 def update_list():
     header = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"}
