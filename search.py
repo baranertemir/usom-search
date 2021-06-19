@@ -13,7 +13,7 @@ def update_list():
         upd.write(update.text)
         upd.close()
 
-#update_list()
+update_list()
 
 
 with open("data.txt", "r") as file:
