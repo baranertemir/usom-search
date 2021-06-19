@@ -13,7 +13,6 @@ def update_list():
         upd.write(update.text)
         upd.close()
 
-
 if __name__ == "__main__":
     update_list()
     with open("data.txt", "r") as file:
